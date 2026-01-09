@@ -20,7 +20,7 @@ export const usersApi = createApi({
     }),
     getUser: builder.query<User, number>({
       query: (id) => `users/${id}`,
-      providesTags: (result, error, id) => [{ type: "User", id }]
+      providesTags: (_result, _error, id) => [{ type: "User", id }]
     }),
     addUser: builder.mutation<User, Partial<User>>({
       query: (body) => ({
