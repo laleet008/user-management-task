@@ -13,8 +13,8 @@ const App: React.FC = () => {
         </div>
       </Content>
       <Footer className="text-center shrink-0">
-        User Management Dashboard ©{new Date().getFullYear()} Created with Ant
-        Design & Tailwind CSS
+        User Management Dashboard ©{new Date().getFullYear()} Created by Lalit
+        Puri. All Rights Reserved.
       </Footer>
     </Layout>
   );
